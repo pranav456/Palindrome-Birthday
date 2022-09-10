@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Josefin+Sans:wght@300&family=Lato:ital,wght@1,300&family=Open+Sans&family=Poppins:wght@300&display=swap");
+
+body {
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+input {
+  margin: auto;
+  display: block;
+  width: 50vh;
+  height: 30px;
+  border: 1px solid rgb(75, 22, 22);
+  font-weight: bold;
+}
+
+#birthday-input {
+  border-radius: 5px;
+}
+
+#show-btn {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  height: 2rem;
+  width: 5rem;
+  border: 1px solid rgb(75, 22, 22);
+  color: rgb(167, 106, 27);
+  font-weight: bold;
+}
+
+#output {
+  text-align: center;
+  font-weight: bold;
+}
